@@ -52,6 +52,7 @@ public class BaseFrame extends JFrame {
         this.setTitle("SNAKE GAME");
         this.add(panel);
         this.pack();
+        // test
 
 
         this.setSize(500,500);
