@@ -90,7 +90,7 @@ public class GamePanel  extends JPanel implements ActionListener {
             if (goldApple) {
                 g.setColor(new Color(212, 175, 55));
             } else
-                g.setColor(new Color(255 - fruitpoints * 3, 0, fruitpoints * 5));
+                g.setColor(new Color(255 - fruitpoints * 2, 0, fruitpoints * 2));
 
             g.fillOval(fruitX, fruitY, SQUARE_SIZE, SQUARE_SIZE);
             g.setColor(Color.green);
@@ -103,12 +103,12 @@ public class GamePanel  extends JPanel implements ActionListener {
                     if (goldApple)
                         g.setColor(new Color(212, 175, 55));
                     else
-                        g.setColor(new Color(255 - fruitpoints * 3, 0, fruitpoints * 5));
+                        g.setColor(new Color(255 - fruitpoints * 2, 0, fruitpoints * 2));
                     g.fillOval(x[i], y[i], SQUARE_SIZE / 3, SQUARE_SIZE / 3);
 
 
                 } else {
-                    g.setColor(new Color(01, 32 + i * 5, 19));
+                    g.setColor(new Color(01, 32 + i * 2, 19));
 
                     g.fillRect(x[i], y[i], SQUARE_SIZE, SQUARE_SIZE);
                 }

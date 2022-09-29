@@ -1,1 +1,13 @@
 
+anonim           	14	11
+anonim           	2	3
+anonim           	1	44
+anonim           	2	47
+anonim           	3	48
+anonim           	12	55
+anonim           	1	79
+anonim           	78	78
+anonim           	128	128
+anonim           	102	102
+anonim           	100	100
+anonim           	103	101
